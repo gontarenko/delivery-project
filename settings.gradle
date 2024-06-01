@@ -1,5 +1,6 @@
 rootProject.name = 'delivery-project'
 
+// base services
 include 'services:auth-service:auth-service-app'
 include 'services:auth-service:auth-service-pipeline'
 
@@ -15,7 +16,6 @@ include 'services:restaurant-service:restaurant-service-pipeline'
 include 'services:courier-service:courier-service-app'
 include 'services:courier-service:courier-service-pipeline'
 
-
-
+// external services
 include 'external-services:payment-service'
 include 'external-services:file-storage-service'
