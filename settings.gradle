@@ -1,7 +1,21 @@
 rootProject.name = 'delivery-project'
 
+include 'services:auth-service:auth-service-app'
+include 'services:auth-service:auth-service-pipeline'
+
 include 'services:customer-service:customer-service-app'
 include 'services:customer-service:customer-service-pipeline'
 
-include 'services:external-services:payment-service'
-include 'services:external-services:file-storage-service'
+include 'services:notification-service:notification-service-app'
+include 'services:notification-service:notification-service-pipeline'
+
+include 'services:restaurant-service:restaurant-service-app'
+include 'services:restaurant-service:restaurant-service-pipeline'
+
+include 'services:courier-service:courier-service-app'
+include 'services:courier-service:courier-service-pipeline'
+
+
+
+include 'external-services:payment-service'
+include 'external-services:file-storage-service'
